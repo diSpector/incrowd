@@ -1,0 +1,19 @@
+storage: 
+  host: db
+  port: 27017
+  user: "incrowd"
+  password: "password"
+  database: "incrowd"
+  collection: "articles"
+
+http_server:
+  address: ":8083"
+  timeout: 4s
+  idle_timeout: 60s
+
+ecb_api:
+  url: "https://content-ecb.pulselive.com/content/ecb/text/EN/"
+  pagesize: 20
+  max:  100
+  period: 60m
+  name: "ecb"
